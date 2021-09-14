@@ -1,16 +1,2433 @@
 {
-  "posts":[
+  "users": [
     {
-      "id" : 0,
-      "title": "First post!",
-      "content" : "My first content!"
+      "id": 1,
+      "email": "keith@keith.com",
+      "fname": "Keith",
+      "lname": "Potempa"
+    },
+    {
+      "id": 2,
+      "email": "freya@freya.com",
+      "fname": "Freya",
+      "lname": "Potempa"
+    },
+    {
+      "email": "andy@andy.com",
+      "fname": "Andy",
+      "lname": "Collins",
+      "id": 3
     }
   ],
-  "comments" : [
+  "characters": [
     {
-      "id": 0,
-      "content": "Wow such content!",
-      "username": "zero_cool"
+      "name": "Cynere",
+      "userId": 1,
+      "characterSubTypeId": 6,
+      "created": "3/20/2020, 3:53:20 PM",
+      "modified": "3/20/2020, 3:53:42 PM",
+      "id": 6
+    },
+    {
+      "name": "Barathar",
+      "userId": 1,
+      "characterSubTypeId": 5,
+      "created": "3/12/2020, 11:31:55 AM",
+      "modified": "3/20/2020, 4:36:16 PM",
+      "id": 1
+    },
+    {
+      "name": "Elsa Vogel",
+      "userId": 1,
+      "characterSubTypeId": 7,
+      "created": "3/26/2020, 10:16:13 AM",
+      "modified": "3/26/2020, 10:16:13 AM",
+      "id": 8
+    },
+    {
+      "name": "Ser Pantor",
+      "userId": 2,
+      "characterSubTypeId": 7,
+      "created": "3/27/2020, 9:00:00 AM",
+      "modified": "3/27/2020, 9:00:00 AM",
+      "id": 10
+    },
+    {
+      "name": "Darged Wolftooth",
+      "userId": 1,
+      "characterSubTypeId": 7,
+      "created": "3/25/2020, 4:08:31 PM",
+      "modified": "3/27/2020, 1:17:24 PM",
+      "id": 7
+    },
+    {
+      "name": "Tanith",
+      "userId": 1,
+      "characterSubTypeId": 5,
+      "created": "3/27/2020, 1:16:55 PM",
+      "modified": "3/27/2020, 2:40:35 PM",
+      "id": 11
+    },
+    {
+      "name": "Manticore",
+      "characterSubTypeId": 7,
+      "userId": 1,
+      "created": "4/1/2020, 10:43:16 AM",
+      "modified": "4/1/2020, 10:43:16 AM",
+      "id": 12
+    },
+    {
+      "name": "Andarian Brightwood",
+      "characterSubTypeId": 6,
+      "userId": 1,
+      "created": "3/18/2020, 1:41:45 PM",
+      "modified": "4/1/2020, 2:05:33 PM",
+      "id": 4
+    },
+    {
+      "name": "Dariel Blackstaff",
+      "characterSubTypeId": 5,
+      "userId": 1,
+      "created": "3/16/2020, 3:11:49 PM",
+      "modified": "4/1/2020, 2:47:47 PM",
+      "id": 3
+    },
+    {
+      "name": "Mimic",
+      "characterSubTypeId": 8,
+      "userId": 1,
+      "created": "4/1/2020, 4:08:14 PM",
+      "modified": "4/1/2020, 4:08:35 PM",
+      "id": 13
+    },
+    {
+      "name": "Liane the Wayfarer",
+      "characterSubTypeId": 6,
+      "userId": 1,
+      "created": "4/6/2020, 2:54:13 PM",
+      "modified": "4/6/2020, 2:54:13 PM",
+      "id": 14
+    },
+    {
+      "name": "Chun the Unavoidable",
+      "characterSubTypeId": 9,
+      "userId": 1,
+      "created": "4/6/2020, 2:58:00 PM",
+      "modified": "4/6/2020, 2:58:00 PM",
+      "id": 15
+    },
+    {
+      "name": "Firla of the White Knell Grove",
+      "characterSubTypeId": 6,
+      "userId": 2,
+      "created": "4/6/2020, 3:03:12 PM",
+      "modified": "4/6/2020, 3:03:12 PM",
+      "id": 16
+    },
+    {
+      "name": "Snowvine",
+      "characterSubTypeId": 5,
+      "userId": 2,
+      "created": "4/6/2020, 3:06:03 PM",
+      "modified": "4/6/2020, 3:06:03 PM",
+      "id": 17
+    },
+    {
+      "name": "Cat-Burglars",
+      "characterSubTypeId": 5,
+      "userId": 2,
+      "created": "4/6/2020, 3:12:35 PM",
+      "modified": "4/6/2020, 3:12:47 PM",
+      "id": 18
+    },
+    {
+      "name": "Hiro the Landscape Painter",
+      "characterSubTypeId": 4,
+      "userId": 2,
+      "created": "4/6/2020, 3:24:40 PM",
+      "modified": "4/6/2020, 3:24:40 PM",
+      "id": 22
+    },
+    {
+      "name": "Lazer Wolf",
+      "characterSubTypeId": 12,
+      "userId": 2,
+      "created": "4/6/2020, 3:26:39 PM",
+      "modified": "4/6/2020, 3:26:39 PM",
+      "id": 23
+    },
+    {
+      "name": "Burrow Warden",
+      "characterSubTypeId": 11,
+      "userId": 2,
+      "created": "4/6/2020, 3:28:13 PM",
+      "modified": "4/6/2020, 3:28:13 PM",
+      "id": 24
+    },
+    {
+      "name": "Rift Serpent",
+      "characterSubTypeId": 10,
+      "userId": 2,
+      "created": "4/6/2020, 3:29:43 PM",
+      "modified": "4/6/2020, 3:29:43 PM",
+      "id": 25
+    },
+    {
+      "name": "Lore Keeper",
+      "characterSubTypeId": 3,
+      "userId": 2,
+      "created": "4/6/2020, 3:18:40 PM",
+      "modified": "4/6/2020, 3:29:58 PM",
+      "id": 19
+    },
+    {
+      "name": "Pesky Reporter",
+      "characterSubTypeId": 1,
+      "userId": 2,
+      "created": "4/6/2020, 3:22:13 PM",
+      "modified": "4/6/2020, 3:30:06 PM",
+      "id": 21
+    },
+    {
+      "name": "Town Guard",
+      "characterSubTypeId": 2,
+      "userId": 2,
+      "created": "4/6/2020, 3:20:39 PM",
+      "modified": "4/6/2020, 3:30:14 PM",
+      "id": 20
+    },
+    {
+      "name": "Queen Zinnia",
+      "characterSubTypeId": 9,
+      "userId": 1,
+      "created": "4/6/2020, 3:32:54 PM",
+      "modified": "4/6/2020, 3:32:54 PM",
+      "id": 26
+    }
+  ],
+  "characterAspects": [
+    {
+      "name": "Infamous Girl With Sword",
+      "characterId": 6,
+      "aspectTypeId": 1,
+      "id": 22
+    },
+    {
+      "name": "Tempted By Shiny Things",
+      "characterId": 6,
+      "aspectTypeId": 2,
+      "id": 23
+    },
+    {
+      "name": "I've Got Zird's Back",
+      "characterId": 6,
+      "aspectTypeId": 3,
+      "id": 24
+    },
+    {
+      "name": "A Sucker For A Sob Story ",
+      "characterId": 6,
+      "aspectTypeId": 3,
+      "id": 25
+    },
+    {
+      "name": "Secret Sister of Barathar",
+      "characterId": 6,
+      "aspectTypeId": 3,
+      "id": 26
+    },
+    {
+      "name": "Smuggler Queen of the Sindral Reach",
+      "characterId": 1,
+      "aspectTypeId": 1,
+      "id": 27
+    },
+    {
+      "name": "A Mostly Loyal Crew",
+      "characterId": 1,
+      "aspectTypeId": 2,
+      "id": 28
+    },
+    {
+      "name": "Remorse is For the Weak",
+      "characterId": 1,
+      "aspectTypeId": 3,
+      "id": 29
+    },
+    {
+      "name": "Zird, Why Won’t You Die?",
+      "characterId": 1,
+      "aspectTypeId": 3,
+      "id": 30
+    },
+    {
+      "name": "My Ship, The Death Dealer",
+      "characterId": 1,
+      "aspectTypeId": 3,
+      "id": 31
+    },
+    {
+      "name": "A Harem of Thugs",
+      "characterId": 1,
+      "aspectTypeId": 3,
+      "id": 32
+    },
+    {
+      "name": "I’ve Got the Law in My Pocket",
+      "characterId": 1,
+      "aspectTypeId": 3,
+      "id": 33
+    },
+    {
+      "name": "Brutally Effective Mercenary Captain",
+      "characterId": 8,
+      "aspectTypeId": 1,
+      "id": 36
+    },
+    {
+      "name": "\"Yes, but what's in it for me?\"",
+      "characterId": 8,
+      "aspectTypeId": 2,
+      "id": 37
+    },
+    {
+      "name": "Fallen Serpent Knight",
+      "characterId": 10,
+      "aspectTypeId": 1,
+      "id": 41
+    },
+    {
+      "name": "Fang-Blade of the First Ones",
+      "characterId": 10,
+      "aspectTypeId": 3,
+      "id": 42
+    },
+    {
+      "name": "Explains His Master Plans",
+      "characterId": 10,
+      "aspectTypeId": 2,
+      "id": 43
+    },
+    {
+      "name": "Savage Barbarian of the Northlands",
+      "characterId": 7,
+      "aspectTypeId": 1,
+      "id": 47
+    },
+    {
+      "name": "Has His Own Mores and Taboos",
+      "characterId": 7,
+      "aspectTypeId": 2,
+      "id": 48
+    },
+    {
+      "name": "Prophetess of the Nightfire Jaguar",
+      "characterId": 11,
+      "aspectTypeId": 1,
+      "id": 49
+    },
+    {
+      "name": "Has No Patience For Your Foolishness",
+      "characterId": 11,
+      "aspectTypeId": 2,
+      "id": 50
+    },
+    {
+      "name": "Goddess in the Making",
+      "characterId": 11,
+      "aspectTypeId": 3,
+      "id": 51
+    },
+    {
+      "name": "Cool Aspect",
+      "characterId": 11,
+      "aspectTypeId": 3,
+      "id": 52
+    },
+    {
+      "name": "Monstrous Amalgamation of Beasts",
+      "characterId": 12,
+      "aspectTypeId": 1,
+      "id": 53
+    },
+    {
+      "name": "Savage and Bestial Intelligence",
+      "characterId": 12,
+      "aspectTypeId": 2,
+      "id": 54
+    },
+    {
+      "name": "Surprising and Deadly Biology",
+      "characterId": 12,
+      "aspectTypeId": 3,
+      "id": 55
+    },
+    {
+      "name": "Retired Archmagus of Abjuration",
+      "characterId": 4,
+      "aspectTypeId": 1,
+      "id": 56
+    },
+    {
+      "name": "Let Me Find The Proper Pair of Glasses for This",
+      "characterId": 4,
+      "aspectTypeId": 2,
+      "id": 57
+    },
+    {
+      "name": "Easily Lost, in Mind and World",
+      "characterId": 4,
+      "aspectTypeId": 3,
+      "id": 58
+    },
+    {
+      "name": "of the Blackstaff Brotherhood",
+      "characterId": 3,
+      "aspectTypeId": 1,
+      "id": 59
+    },
+    {
+      "name": "Overly Defensive of the Order",
+      "characterId": 3,
+      "aspectTypeId": 2,
+      "id": 60
+    },
+    {
+      "name": "Martial Master of the Quarterstaff",
+      "characterId": 3,
+      "aspectTypeId": 3,
+      "id": 61
+    },
+    {
+      "name": "Shielded by an Arcane Hand",
+      "characterId": 3,
+      "aspectTypeId": 3,
+      "id": 62
+    },
+    {
+      "name": "Unerring Shapechanger Trap-Hunter ",
+      "characterId": 13,
+      "aspectTypeId": 1,
+      "id": 63
+    },
+    {
+      "name": "Instinctively & Illogically Aggressive",
+      "characterId": 13,
+      "aspectTypeId": 2,
+      "id": 64
+    },
+    {
+      "name": "Powerfully Adhesive Pseudopods",
+      "characterId": 13,
+      "aspectTypeId": 3,
+      "id": 65
+    },
+    {
+      "name": "Bandit Troubadour with Eyes of Gold",
+      "characterId": 14,
+      "aspectTypeId": 1,
+      "id": 66
+    },
+    {
+      "name": "Quick and Cunning; like a Fox",
+      "characterId": 14,
+      "aspectTypeId": 3,
+      "id": 67
+    },
+    {
+      "name": "Overconfident and Vain to a Fault",
+      "characterId": 14,
+      "aspectTypeId": 2,
+      "id": 68
+    },
+    {
+      "name": "Otherworldly Fiend of Legend",
+      "characterId": 15,
+      "aspectTypeId": 1,
+      "id": 69
+    },
+    {
+      "name": "Devious & Deadly ",
+      "characterId": 15,
+      "aspectTypeId": 3,
+      "id": 70
+    },
+    {
+      "name": "Keeper of the Ruined Temple",
+      "characterId": 15,
+      "aspectTypeId": 3,
+      "id": 71
+    },
+    {
+      "name": "Always Willing to Make a Deal",
+      "characterId": 15,
+      "aspectTypeId": 2,
+      "id": 72
+    },
+    {
+      "name": "Mystical Tundra Dryad",
+      "characterId": 16,
+      "aspectTypeId": 1,
+      "id": 73
+    },
+    {
+      "name": "I am the Snowvine and it is Me",
+      "characterId": 16,
+      "aspectTypeId": 3,
+      "id": 74
+    },
+    {
+      "name": "Soft Teenage Heart Beneath the Bark",
+      "characterId": 16,
+      "aspectTypeId": 3,
+      "id": 75
+    },
+    {
+      "name": "We Belong to One Another (Our Roots are Tangled)",
+      "characterId": 16,
+      "aspectTypeId": 3,
+      "id": 76
+    },
+    {
+      "name": "\"A Curse of the Land\"",
+      "characterId": 16,
+      "aspectTypeId": 2,
+      "id": 77
+    },
+    {
+      "name": "Carnivorous Snow Burrowing Vine Snake",
+      "characterId": 17,
+      "aspectTypeId": 1,
+      "id": 78
+    },
+    {
+      "name": "Dangerously Protective of Firla",
+      "characterId": 17,
+      "aspectTypeId": 3,
+      "id": 79
+    },
+    {
+      "name": "Always Hungry & Not Discerning",
+      "characterId": 17,
+      "aspectTypeId": 2,
+      "id": 80
+    },
+    {
+      "name": "Deadly Covert Operative",
+      "characterId": 18,
+      "aspectTypeId": 1,
+      "id": 81
+    },
+    {
+      "name": "Glass Jaw",
+      "characterId": 18,
+      "aspectTypeId": 2,
+      "id": 82
+    },
+    {
+      "name": "Slippery as an Eel",
+      "characterId": 18,
+      "aspectTypeId": 3,
+      "id": 83
+    },
+    {
+      "name": "Greatest Landscape Painter in the Lands",
+      "characterId": 22,
+      "aspectTypeId": 1,
+      "id": 90
+    },
+    {
+      "name": "There's Beauty in Everything",
+      "characterId": 22,
+      "aspectTypeId": 3,
+      "id": 91
+    },
+    {
+      "name": "Needs the Perfect Ingredients for Their Ink",
+      "characterId": 22,
+      "aspectTypeId": 2,
+      "id": 92
+    },
+    {
+      "name": "Laser-Gun-Wielding Wolf Robeast",
+      "characterId": 23,
+      "aspectTypeId": 1,
+      "id": 93
+    },
+    {
+      "name": "Badgermxn Guardian of the Burrows",
+      "characterId": 24,
+      "aspectTypeId": 1,
+      "id": 94
+    },
+    {
+      "name": "Serpentine Hyperwoods Rift Pack Hunters",
+      "characterId": 25,
+      "aspectTypeId": 1,
+      "id": 95
+    },
+    {
+      "name": "Know-it-All Keeper of Lost Lore",
+      "characterId": 19,
+      "aspectTypeId": 1,
+      "id": 96
+    },
+    {
+      "name": "Easily Distracted by All the Books",
+      "characterId": 19,
+      "aspectTypeId": 2,
+      "id": 97
+    },
+    {
+      "name": "Asking All the Wrong Questions on the Air",
+      "characterId": 21,
+      "aspectTypeId": 1,
+      "id": 98
+    },
+    {
+      "name": "So Vain; Probably Thinks This Story is About Them",
+      "characterId": 21,
+      "aspectTypeId": 2,
+      "id": 99
+    },
+    {
+      "name": "Fastidious Keeper of the Peace",
+      "characterId": 20,
+      "aspectTypeId": 1,
+      "id": 100
+    },
+    {
+      "name": "Close to Retirement; Easily Bribed",
+      "characterId": 20,
+      "aspectTypeId": 2,
+      "id": 101
+    },
+    {
+      "name": "Satyr Diviner Queen",
+      "characterId": 26,
+      "aspectTypeId": 1,
+      "id": 102
+    },
+    {
+      "name": "Mistress of Glamours",
+      "characterId": 26,
+      "aspectTypeId": 3,
+      "id": 103
+    },
+    {
+      "name": "Always Two Steps in the Future",
+      "characterId": 26,
+      "aspectTypeId": 3,
+      "id": 104
+    },
+    {
+      "name": "(Glamoured) Memory Vampire",
+      "characterId": 26,
+      "aspectTypeId": 2,
+      "id": 105
+    },
+    {
+      "name": "Ruled by Fear of Possible Futures",
+      "characterId": 26,
+      "aspectTypeId": 3,
+      "id": 106
+    }
+  ],
+  "aspectTypes": [
+    {
+      "id": 1,
+      "name": "High Concept"
+    },
+    {
+      "id": 2,
+      "name": "Trouble"
+    },
+    {
+      "id": 3,
+      "name": "Aspect"
+    }
+  ],
+  "characterStunts": [
+    {
+      "characterId": 6,
+      "stuntId": 2,
+      "id": 14
+    },
+    {
+      "characterId": 6,
+      "stuntId": 31,
+      "id": 15
+    },
+    {
+      "characterId": 1,
+      "stuntId": 55,
+      "id": 16
+    },
+    {
+      "characterId": 1,
+      "stuntId": 56,
+      "id": 17
+    },
+    {
+      "characterId": 1,
+      "stuntId": 54,
+      "id": 18
+    },
+    {
+      "characterId": 1,
+      "stuntId": 1,
+      "id": 19
+    },
+    {
+      "characterId": 8,
+      "stuntId": 23,
+      "id": 21
+    },
+    {
+      "characterId": 10,
+      "stuntId": 13,
+      "id": 24
+    },
+    {
+      "characterId": 7,
+      "stuntId": 24,
+      "id": 27
+    },
+    {
+      "characterId": 11,
+      "stuntId": 28,
+      "id": 28
+    },
+    {
+      "characterId": 11,
+      "stuntId": 41,
+      "id": 29
+    },
+    {
+      "characterId": 11,
+      "stuntId": 3,
+      "id": 30
+    },
+    {
+      "characterId": 12,
+      "stuntId": 24,
+      "id": 31
+    },
+    {
+      "characterId": 12,
+      "stuntId": 48,
+      "id": 32
+    },
+    {
+      "characterId": 4,
+      "stuntId": 28,
+      "id": 33
+    },
+    {
+      "characterId": 4,
+      "stuntId": 29,
+      "id": 34
+    },
+    {
+      "characterId": 4,
+      "stuntId": 27,
+      "id": 35
+    },
+    {
+      "characterId": 4,
+      "stuntId": 25,
+      "id": 36
+    },
+    {
+      "characterId": 3,
+      "stuntId": 3,
+      "id": 37
+    },
+    {
+      "characterId": 3,
+      "stuntId": 9,
+      "id": 38
+    },
+    {
+      "characterId": 13,
+      "stuntId": 49,
+      "id": 39
+    },
+    {
+      "characterId": 13,
+      "stuntId": 22,
+      "id": 40
+    },
+    {
+      "characterId": 14,
+      "stuntId": 4,
+      "id": 41
+    },
+    {
+      "characterId": 15,
+      "stuntId": 50,
+      "id": 42
+    },
+    {
+      "characterId": 16,
+      "stuntId": 36,
+      "id": 43
+    },
+    {
+      "characterId": 17,
+      "stuntId": 50,
+      "id": 44
+    },
+    {
+      "characterId": 18,
+      "stuntId": 1,
+      "id": 45
+    },
+    {
+      "characterId": 22,
+      "stuntId": 40,
+      "id": 46
+    },
+    {
+      "characterId": 26,
+      "stuntId": 29,
+      "id": 47
+    }
+  ],
+  "stunts": [
+    {
+      "id": 1,
+      "name": "Sprinter",
+      "description": "You move two zones for free in a conflict without rolling, instead of one, provided there are no situation aspects restricting movement.",
+      "skillId": 1
+    },
+    {
+      "id": 2,
+      "name": "Hardcore Parkour",
+      "description": "+2 to overcome actions with Athletics if you are in a chase across rooftops or a similarly precarious environment.",
+      "skillId": 1
+    },
+    {
+      "id": 3,
+      "name": "Dazing Counter",
+      "description": "When you succeed with style on a defend action against an opponent’s Fight roll, you automatically counter with some sort of nerve punch or stunning blow. You get to attach the Dazed situation aspect to your opponent with a free invoke, instead of just a boost.",
+      "skillId": 1
+    },
+    {
+      "id": 4,
+      "name": "Always a Way Out",
+      "description": "+2 on Burglary rolls made to create an advantage whenever you’re trying to escape from a location.",
+      "skillId": 2
+    },
+    {
+      "id": 5,
+      "name": "Security Specialist",
+      "description": "You don’t have to be present to provide active opposition to someone trying to overcome security measures you put in place or worked on. (Normally, a character would roll against passive opposition for that.)",
+      "skillId": 2
+    },
+    {
+      "id": 6,
+      "name": "Talk the Talk",
+      "description": "You can use Burglary in place of Contacts whenever you’re dealing specifically with other thieves and burglars.",
+      "skillId": 2
+    },
+    {
+      "id": 7,
+      "name": "Ear to the Ground",
+      "description": "Whenever someone initiates a conflict against you in an area where you’ve built a network of contacts, you use Contacts instead of Notice to determine turn order, because you got tipped off in time.",
+      "skillId": 3
+    },
+    {
+      "id": 8,
+      "name": "Rumormonger",
+      "description": "+2 to create an advantage when you plant vicious rumors about someone else.",
+      "skillId": 3
+    },
+    {
+      "id": 9,
+      "name": "The Weight of Reputation",
+      "description": "You can use Contacts instead of Provoke to create advantages based on the fear generated by the sinister reputation you’ve cultivated for yourself and all the shady associates you have. You should have an appropriate aspect to pair with this stunt.",
+      "skillId": 3
+    },
+    {
+      "id": 10,
+      "name": "Always Making Useful Things",
+      "description": "You don’t ever have to spend a fate point to declare that you have the proper tools for a particular job using Crafts, even in extreme situations (like being imprisoned and separated from all your stuff). This source of opposition is just off the table.",
+      "skillId": 4
+    },
+    {
+      "id": 11,
+      "name": "Better than New!",
+      "description": "Whenever you succeed with style on an overcome action to repair a piece of machinery, you can immediately give it a new situation aspect (with a free invoke) reflecting the improvements you’ve made, instead of just a boost.",
+      "skillId": 4
+    },
+    {
+      "id": 12,
+      "name": "Surgical Strikes",
+      "description": "When using Crafts in a conflict involving machinery, you can filter out unwanted targets from whole-zone attacks without having to divide up your shifts (normally, you’d need to divide your roll between your targets).",
+      "skillId": 4
+    },
+    {
+      "id": 13,
+      "name": "Lies Upon Lies",
+      "description": "+2 to create a Deceive advantage against someone who has believed one of your lies already during this session.",
+      "skillId": 5
+    },
+    {
+      "id": 14,
+      "name": "Mind Games",
+      "description": "You can use Deceive in place of Provoke to make mental attacks, as long as you can make up a clever lie as part of the attack.",
+      "skillId": 5
+    },
+    {
+      "id": 15,
+      "name": "One Person, Many Faces",
+      "description": "Whenever you meet someone new, you can spend a fate point to declare that you’ve met that person before, but under a different name and identity. Create a situation aspect to represent your cover story, and you can use Deceive in place of Rapport whenever interacting with that person.",
+      "skillId": 5
+    },
+    {
+      "id": 16,
+      "name": "Hard to Shake",
+      "description": "+2 to Drive whenever you’re pursuing another vehicle in a chase scene.",
+      "skillId": 6
+    },
+    {
+      "id": 17,
+      "name": "Pedal to the Metal",
+      "description": "You can coax more speed out of your vehicle than seems possible. Whenever you’re engaged in any contest where speed is the primary factor (such as a chase or race of some kind) and you tie with your Drive roll, it’s considered a success.",
+      "skillId": 6
+    },
+    {
+      "id": 18,
+      "name": "Ramming Speed!",
+      "description": "When ramming another vehicle, you ignore two shifts of damage. So if you ram and hit for four shifts, you only take two yourself.",
+      "skillId": 6
+    },
+    {
+      "id": 19,
+      "name": "Lie Whisperer",
+      "description": "+2 to all Empathy rolls made to discern or discover lies, whether they’re directed at you or someone else.",
+      "skillId": 7
+    },
+    {
+      "id": 20,
+      "name": "Nose for Trouble",
+      "description": "You can use Empathy instead of Notice to determine your turn order in a conflict, provided you’ve gotten a chance to observe or speak to those involved for at least a few minutes beforehand during this scene.",
+      "skillId": 7
+    },
+    {
+      "id": 21,
+      "name": "Psychologist",
+      "description": "Once per session you can reduce someone else’s consequence by one level of severity (severe to moderate, moderate to mild, mild to nothing at all) by succeeding on an Empathy roll with a difficulty of Fair (+2) for a mild consequence, Good (+3) for moderate, or Great (+4) for severe. You need to talk with the person you’re treating for at least half an hour in order for them to receive the benefits of this stunt, and you can’t use it on yourself. (Normally, this roll would only start the recovery process, instead of changing the consequence level.)",
+      "skillId": 7
+    },
+    {
+      "id": 22,
+      "name": "Heavy Hitter",
+      "description": "When you succeed with style on a Fight attack and choose to reduce the result by one to gain a boost, you gain a full situation aspect with a free invocation instead.",
+      "skillId": 8
+    },
+    {
+      "id": 23,
+      "name": "Backup Weapon",
+      "description": "Whenever someone’s about to hit you with a Disarmed situation aspect or something similar, spend a fate point to declare you have a backup weapon. Instead of a situation aspect, your opponent gets a boost, representing the momentary distraction you suffer having to switch.",
+      "skillId": 8
+    },
+    {
+      "id": 24,
+      "name": "Killing Stroke",
+      "description": "Once per scene, when you force an opponent to take a consequence, you can spend a fate point to increase the consequence’s severity (so mild becomes moderate, moderate becomes severe). If your opponent was already going to take a severe consequence, he must either take a severe consequence and a second consequence or be taken out.",
+      "skillId": 8
+    },
+    {
+      "id": 25,
+      "name": "Attention to Detail",
+      "description": "You can use Investigate instead of Empathy to defend against Deceive attempts. What others discover through gut reactions and intuition, you learn through careful observation of microexpressions.",
+      "skillId": 9
+    },
+    {
+      "id": 26,
+      "name": "Eavesdropper",
+      "description": "On a successful Investigate roll to create an advantage by eavesdropping on a conversation, you can discover or create one additional aspect (though this doesn’t give you an extra free invocation).",
+      "skillId": 9
+    },
+    {
+      "id": 27,
+      "name": "The Power of Deduction",
+      "description": "Once per scene you can spend a fate point (and a few minutes of observation) to make a special Investigate roll representing your potent deductive faculties. For each shift you make on this roll you discover or create an aspect, on either the scene or the target of your observations, though you may only invoke one of them for free.",
+      "skillId": 9
+    },
+    {
+      "id": 28,
+      "name": "I've Read about That!",
+      "description": "You’ve read hundreds—if not thousands—of books on a wide variety of topics. You can spend a fate point to use Lore in place of any other skill for one roll or exchange, provided you can justify having read about the action you’re attempting.",
+      "skillId": 10
+    },
+    {
+      "id": 29,
+      "name": "Shield of Reason",
+      "description": "You can use Lore as a defense against Provoke attempts, provided you can justify your ability to overcome your fear through rational thought and reason.",
+      "skillId": 10
+    },
+    {
+      "id": 30,
+      "name": "Specialist",
+      "description": "Choose a field of specialization, such as herbology, criminology, or zoology. You get a +2 to all Lore rolls relating to that field of specialization.",
+      "skillId": 10
+    },
+    {
+      "id": 31,
+      "name": "Danger Sense",
+      "description": "You have an almost preternatural capacity for detecting danger. Your Notice skill works unimpeded by conditions like total concealment, darkness, or other sensory impairments in situations where someone or something intends to harm you.",
+      "skillId": 11
+    },
+    {
+      "id": 32,
+      "name": "Body Language Radar",
+      "description": "You can use Notice in place of Empathy to learn the aspects of a target through observation.",
+      "skillId": 11
+    },
+    {
+      "id": 33,
+      "name": "Reactive Shot",
+      "description": "You can use Notice instead of Shoot to make quick, reactive shots that don’t involve a lot of aiming. However, because you’re having a knee-jerk reaction, you’re not allowed to concretely identify your target before using this stunt. So, for example, you might be able to shoot at someone you see moving in the bushes with this stunt, but you won’t be able to tell if it’s friend or foe before you pull the trigger. Choose carefully!",
+      "skillId": 11
+    },
+    {
+      "id": 34,
+      "name": "Grappler",
+      "description": "+2 to Physique rolls made to create advantages on an enemy by wrestling or grappling with them.",
+      "skillId": 12
+    },
+    {
+      "id": 35,
+      "name": "Take the Blow",
+      "description": "You can use Physique to defend against Fight attacks made with fists or blunt instruments, though you always take 1 shift of stress on a tie.",
+      "skillId": 12
+    },
+    {
+      "id": 36,
+      "name": "Tough as Nails",
+      "description": "Once per session, at the cost of a fate point, you can reduce the severity of a moderate consequence that’s physical in nature to a mild consequence (if your mild consequence slot is free), or erase a mild consequence altogether.",
+      "skillId": 12
+    },
+    {
+      "id": 37,
+      "name": "Armor of Fear",
+      "description": " You can use Provoke to defend against Fight attacks, but only until the first time you’re dealt stress in a conflict. You can make your opponents hesitate to attack, but when someone shows them that you’re only human your advantage disappears.",
+      "skillId": 13
+    },
+    {
+      "id": 38,
+      "name": "Provoke Violence",
+      "description": "When you create an advantage on an opponent using Provoke, you can use your free invocation to become the target of that character’s next relevant action, drawing their attention away from another target.",
+      "skillId": 13
+    },
+    {
+      "id": 39,
+      "name": "Okay, Fine!",
+      "description": "You can use Provoke in place of Empathy to learn a target’s aspects, by bullying them until they reveal one to you. The target defends against this with Will. (If the GM thinks the aspect is particularly vulnerable to your hostile approach, you get a +2 bonus.)",
+      "skillId": 13
+    },
+    {
+      "id": 40,
+      "name": "Best Foot Forward",
+      "description": "Twice per session, you may upgrade a boost you receive with Rapport into a full situation aspect with a free invocation.",
+      "skillId": 14
+    },
+    {
+      "id": 41,
+      "name": "Demagogue",
+      "description": "+2 to Rapport when you’re delivering an inspiring speech in front of a crowd. (If there are named NPCs or PCs in the scene, you may target them all simultaneously with one roll rather than dividing up your shifts.)",
+      "skillId": 14
+    },
+    {
+      "id": 42,
+      "name": "Popular",
+      "description": "If you’re in an area where you’re popular and well-liked, you can use Rapport in place of Contacts. You may be able to establish your popularity by spending a fate point to declare a story detail, or because of prior justification.",
+      "skillId": 14
+    },
+    {
+      "id": 43,
+      "name": "Money Talks",
+      "description": "You can use Resources instead of Rapport in any situation where ostentatious displays of material wealth might aid your cause.",
+      "skillId": 15
+    },
+    {
+      "id": 44,
+      "name": "Savvy Investor",
+      "description": "You get an additional free invoke when you create advantages with Resources, provided that they describe a monetary return on an investment you made in a previous session. (In other words, you can’t retroactively declare that you did it, but if it happened in the course of play, you get higher returns.)",
+      "skillId": 15
+    },
+    {
+      "id": 45,
+      "name": "Trust Fund Baby",
+      "description": "Twice per session, you may take a boost representing a windfall or influx of cash.",
+      "skillId": 15
+    },
+    {
+      "id": 46,
+      "name": "Called Shot",
+      "description": "During a Shoot attack, spend a fate point and declare a specific condition you want to inflict on a target, like Shot in the Hand. If you succeed, you place that as a situation aspect on them in addition to hitting them for stress.",
+      "skillId": 16
+    },
+    {
+      "id": 47,
+      "name": "Quick on the Draw",
+      "description": "You can use Shoot instead of Notice to determine turn order in any physical conflict where shooting quickly would be useful.",
+      "skillId": 16
+    },
+    {
+      "id": 48,
+      "name": "Uncanny Accuracy",
+      "description": "Once per conflict, stack an additional free invoke on an advantage you’ve created to represent the time you take to aim or line up a shot (like In My Sights).",
+      "skillId": 16
+    },
+    {
+      "id": 49,
+      "name": "Face in the Crowd",
+      "description": "+2 to any Stealth roll to blend into a crowd. What a “crowd” means will depend on the environment—a subway station requires more people to be crowded than a small bar.",
+      "skillId": 17
+    },
+    {
+      "id": 50,
+      "name": "Ninja Vanish",
+      "description": "Once per scene, you can vanish while in plain sight by spending a fate point, using a smoke pellet or other mysterious technique. This places the Vanished boost on you. While you’re vanished, no one can attack or create an advantage on you until after they’ve succeeded at an overcome roll with Notice to suss out where you went (basically meaning they have to give up an exchange to try). This aspect goes away as soon as you invoke it, or someone makes that overcome roll.",
+      "skillId": 17
+    },
+    {
+      "id": 51,
+      "name": "Slippery Target",
+      "description": "Provided you’re in darkness or shadow, you can use Stealth to defend against Shoot attacks from enemies that are at least one zone away.",
+      "skillId": 17
+    },
+    {
+      "id": 52,
+      "name": "Strength from Determination",
+      "description": "Use Will instead of Physique on any overcome rolls representing feats of strength.",
+      "skillId": 18
+    },
+    {
+      "id": 53,
+      "name": "Hard Boiled",
+      "description": "You can choose to ignore a mild or moderate consequence for the duration of the scene. It can’t be compelled against you or invoked by your enemies. At the end of the scene it comes back worse, though; if it was a mild consequence it becomes a moderate consequence, and if it was already moderate, it becomes severe.",
+      "skillId": 18
+    },
+    {
+      "id": 54,
+      "name": "Indomitable",
+      "description": "+2 to defend against Provoke attacks specifically related to intimidation and fear.",
+      "skillId": 18
+    },
+    {
+      "id": 55,
+      "name": "Takes One to Know One",
+      "description": "Use Deceive instead of Empathy to create an advantage in social situations.",
+      "skillId": 5
+    },
+    {
+      "id": 56,
+      "name": "Feint Master",
+      "description": "+2 to use Deceive to create an advantage in a physical conflict.",
+      "skillId": 5
+    },
+    {
+      "id": 57,
+      "name": "Riposte",
+      "description": "If you succeed with style on a Fight defense, you can choose to inflict a 2-shift hit rather than take a boost.",
+      "skillId": 8
+    }
+  ],
+  "skills": [
+    {
+      "id": "1",
+      "name": "Athletics",
+      "summary": "The Athletics skill represents your character’s general level of physical fitness, whether through training, natural gifts, or genre-specific means (like magic or genetic alteration). It’s how good you are at moving your body. As such, it is a popular choice for nearly any action-y character.",
+      "url": "https://fate-srd.com/fate-core/athletics"
+    },
+    {
+      "id": "2",
+      "name": "Burglary",
+      "summary": "The Burglary skill covers your character’s aptitude for stealing things and getting into places that are off-limits.",
+      "url": "https://fate-srd.com/fate-core/burglary"
+    },
+    {
+      "id": "3",
+      "name": "Contacts",
+      "summary": "Contacts is the skill of knowing and making connections with people. It presumes proficiency with all means of networking available in the setting.",
+      "url": "https://fate-srd.com/fate-core/contacts"
+    },
+    {
+      "id": "4",
+      "name": "Crafts",
+      "summary": "Crafts is the skill of working with machinery, for good or ill.",
+      "url": "https://fate-srd.com/fate-core/crafts"
+    },
+    {
+      "id": "5",
+      "name": "Deceive",
+      "summary": "Deceive is the skill about lying to and misdirecting people.",
+      "url": "https://fate-srd.com/fate-core/deceive"
+    },
+    {
+      "id": "6",
+      "name": "Drive",
+      "summary": "The Drive skill is all about operating vehicles and things that go fast.",
+      "url": "https://fate-srd.com/fate-core/drive"
+    },
+    {
+      "id": "7",
+      "name": "Empathy",
+      "summary": "Empathy involves knowing and being able to spot changes in a person’s mood or bearing. It’s basically the emotional Notice skill.",
+      "url": "https://fate-srd.com/fate-core/empathy"
+    },
+    {
+      "id": "8",
+      "name": "Fight",
+      "summary": "The Fight skill covers all forms of close-quarters combat (in other words, within the same zone), both unarmed and using weapons. For the ranged weapons counterpart, see Shoot.",
+      "url": "https://fate-srd.com/fate-core/fight"
+    },
+    {
+      "id": "9",
+      "name": "Investigate",
+      "summary": "Investigate is the skill you use to find things out. It’s a counterpart to Notice—whereas Notice revolves around situational alertness and surface observation, Investigate revolves around concentrated effort and in-depth scrutiny.",
+      "url": "https://fate-srd.com/fate-core/investigate"
+    },
+    {
+      "id": "10",
+      "name": "Lore",
+      "summary": "The Lore skill is about knowledge and education. As with some other skills, we called it Lore because that fits the particular flavor of our examples—other games might call it Scholarship, or Academics, or something like that.",
+      "url": "https://fate-srd.com/fate-core/lore"
+    },
+    {
+      "id": "11",
+      "name": "Notice",
+      "summary": "The Notice skill involves just that—noticing things. It’s a counterpart to Investigate, representing a character’s overall perception, ability to pick out details at a glance, and other powers of observation. Usually, when you use Notice, it’s very quick compared to Investigate, so the kinds of details you get from it are more superficial, but you also don’t have to expend as much effort to find them.",
+      "url": "https://fate-srd.com/fate-core/notice"
+    },
+    {
+      "id": "12",
+      "name": "Physique",
+      "summary": "The Physique skill is a counterpart to Athletics, representing the character’s natural physical aptitudes, such as raw strength and endurance. In our example game, we have this skill broken out as something separate in order to create two distinct types of physical characters—the nimble guy (represented by Athletics) and the strongman (represented by Physique).",
+      "url": "https://fate-srd.com/fate-core/physique"
+    },
+    {
+      "id": "13",
+      "name": "Provoke",
+      "summary": "Provoke is the skill about getting someone’s dander up and eliciting negative emotional response from them—fear, anger, shame, etc. It’s the “being a jerk” skill.",
+      "url": "https://fate-srd.com/fate-core/provoke"
+    },
+    {
+      "id": "14",
+      "name": "Rapport",
+      "summary": "The Rapport skill is all about making positive connections to people and eliciting positive emotion. It’s the skill of being liked and trusted.",
+      "url": "https://fate-srd.com/fate-core/rapport"
+    },
+    {
+      "id": "15",
+      "name": "Resources",
+      "summary": "Resources describes your character’s general level of material wealth in the game world and ability to apply it. This might not always reflect cash on hand, given the different ways you can represent wealth in a particular setting—in a medieval game, it might be tied to land or vassals as much as gold; in the modern day, it might mean a number of good lines of credit.",
+      "url": "https://fate-srd.com/fate-core/resources"
+    },
+    {
+      "id": "16",
+      "name": "Shoot",
+      "summary": "The counterpart to Fight, Shoot is the skill of using ranged weaponry, either in a conflict or on targets that don’t actively resist your attempts to shoot them (like a bull’s-eye or the broad side of a barn).",
+      "url": "https://fate-srd.com/fate-core/shoot"
+    },
+    {
+      "id": "17",
+      "name": "Stealth",
+      "summary": "The Stealth skill allows you to avoid detection, both when hiding in place and trying to move about unseen. It pairs well with the Burglary skill.",
+      "url": "https://fate-srd.com/fate-core/stealth"
+    },
+    {
+      "id": "18",
+      "name": "Will",
+      "summary": "The Will skill represents your character’s general level of mental fortitude, the same way that Physique represents your physical fortitude.",
+      "url": "https://fate-srd.com/fate-core/will"
+    }
+  ],
+  "characterSkills": [
+    {
+      "characterId": 6,
+      "skillId": 15,
+      "skillRating": 1,
+      "id": 52
+    },
+    {
+      "characterId": 6,
+      "skillId": 10,
+      "skillRating": 1,
+      "id": 53
+    },
+    {
+      "characterId": 6,
+      "skillId": 2,
+      "skillRating": 1,
+      "id": 54
+    },
+    {
+      "characterId": 6,
+      "skillId": 7,
+      "skillRating": 1,
+      "id": 55
+    },
+    {
+      "characterId": 6,
+      "skillId": 5,
+      "skillRating": 2,
+      "id": 56
+    },
+    {
+      "characterId": 6,
+      "skillId": 9,
+      "skillRating": 2,
+      "id": 57
+    },
+    {
+      "characterId": 6,
+      "skillId": 12,
+      "skillRating": 2,
+      "id": 58
+    },
+    {
+      "characterId": 6,
+      "skillId": 11,
+      "skillRating": 3,
+      "id": 59
+    },
+    {
+      "characterId": 6,
+      "skillId": 8,
+      "skillRating": 3,
+      "id": 60
+    },
+    {
+      "characterId": 6,
+      "skillId": 1,
+      "skillRating": 4,
+      "id": 61
+    },
+    {
+      "characterId": 1,
+      "skillId": 10,
+      "skillRating": 1,
+      "id": 62
+    },
+    {
+      "characterId": 1,
+      "skillId": 12,
+      "skillRating": 1,
+      "id": 63
+    },
+    {
+      "characterId": 1,
+      "skillId": 4,
+      "skillRating": 2,
+      "id": 64
+    },
+    {
+      "characterId": 1,
+      "skillId": 17,
+      "skillRating": 2,
+      "id": 65
+    },
+    {
+      "characterId": 1,
+      "skillId": 11,
+      "skillRating": 3,
+      "id": 66
+    },
+    {
+      "characterId": 1,
+      "skillId": 3,
+      "skillRating": 3,
+      "id": 67
+    },
+    {
+      "characterId": 1,
+      "skillId": 15,
+      "skillRating": 4,
+      "id": 68
+    },
+    {
+      "characterId": 1,
+      "skillId": 18,
+      "skillRating": 4,
+      "id": 69
+    },
+    {
+      "characterId": 1,
+      "skillId": 16,
+      "skillRating": 5,
+      "id": 70
+    },
+    {
+      "characterId": 1,
+      "skillId": 2,
+      "skillRating": 5,
+      "id": 71
+    },
+    {
+      "characterId": 1,
+      "skillId": 5,
+      "skillRating": 6,
+      "id": 72
+    },
+    {
+      "characterId": 1,
+      "skillId": 8,
+      "skillRating": 6,
+      "id": 73
+    },
+    {
+      "characterId": 1,
+      "skillId": 6,
+      "skillRating": 6,
+      "id": 74
+    },
+    {
+      "characterId": 8,
+      "skillId": 12,
+      "skillRating": 4,
+      "id": 81
+    },
+    {
+      "characterId": 8,
+      "skillId": 16,
+      "skillRating": 4,
+      "id": 82
+    },
+    {
+      "characterId": 8,
+      "skillId": 8,
+      "skillRating": 5,
+      "id": 83
+    },
+    {
+      "characterId": 10,
+      "skillId": 5,
+      "skillRating": 2,
+      "id": 90
+    },
+    {
+      "characterId": 10,
+      "skillId": 17,
+      "skillRating": 2,
+      "id": 91
+    },
+    {
+      "characterId": 10,
+      "skillId": 9,
+      "skillRating": 2,
+      "id": 92
+    },
+    {
+      "characterId": 10,
+      "skillId": 10,
+      "skillRating": 2,
+      "id": 93
+    },
+    {
+      "characterId": 10,
+      "skillId": 2,
+      "skillRating": 2,
+      "id": 94
+    },
+    {
+      "characterId": 10,
+      "skillId": 1,
+      "skillRating": 3,
+      "id": 95
+    },
+    {
+      "characterId": 10,
+      "skillId": 14,
+      "skillRating": 3,
+      "id": 96
+    },
+    {
+      "characterId": 10,
+      "skillId": 15,
+      "skillRating": 3,
+      "id": 97
+    },
+    {
+      "characterId": 10,
+      "skillId": 3,
+      "skillRating": 3,
+      "id": 98
+    },
+    {
+      "characterId": 10,
+      "skillId": 12,
+      "skillRating": 4,
+      "id": 99
+    },
+    {
+      "characterId": 10,
+      "skillId": 18,
+      "skillRating": 4,
+      "id": 100
+    },
+    {
+      "characterId": 10,
+      "skillId": 13,
+      "skillRating": 4,
+      "id": 101
+    },
+    {
+      "characterId": 10,
+      "skillId": 8,
+      "skillRating": 5,
+      "id": 102
+    },
+    {
+      "characterId": 10,
+      "skillId": 11,
+      "skillRating": 5,
+      "id": 103
+    },
+    {
+      "characterId": 7,
+      "skillId": 17,
+      "skillRating": 1,
+      "id": 114
+    },
+    {
+      "characterId": 7,
+      "skillId": 13,
+      "skillRating": 1,
+      "id": 115
+    },
+    {
+      "characterId": 7,
+      "skillId": 1,
+      "skillRating": 2,
+      "id": 116
+    },
+    {
+      "characterId": 7,
+      "skillId": 11,
+      "skillRating": 2,
+      "id": 117
+    },
+    {
+      "characterId": 7,
+      "skillId": 12,
+      "skillRating": 3,
+      "id": 118
+    },
+    {
+      "characterId": 7,
+      "skillId": 8,
+      "skillRating": 3,
+      "id": 119
+    },
+    {
+      "characterId": 11,
+      "skillId": 13,
+      "skillRating": 1,
+      "id": 120
+    },
+    {
+      "characterId": 11,
+      "skillId": 17,
+      "skillRating": 1,
+      "id": 121
+    },
+    {
+      "characterId": 11,
+      "skillId": 9,
+      "skillRating": 1,
+      "id": 122
+    },
+    {
+      "characterId": 11,
+      "skillId": 5,
+      "skillRating": 1,
+      "id": 123
+    },
+    {
+      "characterId": 11,
+      "skillId": 1,
+      "skillRating": 2,
+      "id": 124
+    },
+    {
+      "characterId": 11,
+      "skillId": 3,
+      "skillRating": 2,
+      "id": 125
+    },
+    {
+      "characterId": 11,
+      "skillId": 14,
+      "skillRating": 2,
+      "id": 126
+    },
+    {
+      "characterId": 11,
+      "skillId": 7,
+      "skillRating": 3,
+      "id": 127
+    },
+    {
+      "characterId": 11,
+      "skillId": 10,
+      "skillRating": 4,
+      "id": 128
+    },
+    {
+      "characterId": 11,
+      "skillId": 6,
+      "skillRating": 4,
+      "id": 129
+    },
+    {
+      "characterId": 12,
+      "skillId": 1,
+      "skillRating": 3,
+      "id": 130
+    },
+    {
+      "characterId": 12,
+      "skillId": 12,
+      "skillRating": 3,
+      "id": 131
+    },
+    {
+      "characterId": 12,
+      "skillId": 11,
+      "skillRating": 3,
+      "id": 132
+    },
+    {
+      "characterId": 12,
+      "skillId": 8,
+      "skillRating": 4,
+      "id": 133
+    },
+    {
+      "characterId": 12,
+      "skillId": 16,
+      "skillRating": 4,
+      "id": 134
+    },
+    {
+      "characterId": 12,
+      "skillId": 13,
+      "skillRating": 5,
+      "id": 135
+    },
+    {
+      "characterId": 4,
+      "skillId": 4,
+      "skillRating": 1,
+      "id": 136
+    },
+    {
+      "characterId": 4,
+      "skillId": 15,
+      "skillRating": 2,
+      "id": 137
+    },
+    {
+      "characterId": 4,
+      "skillId": 11,
+      "skillRating": 2,
+      "id": 138
+    },
+    {
+      "characterId": 4,
+      "skillId": 16,
+      "skillRating": 2,
+      "id": 139
+    },
+    {
+      "characterId": 4,
+      "skillId": 3,
+      "skillRating": 3,
+      "id": 140
+    },
+    {
+      "characterId": 4,
+      "skillId": 7,
+      "skillRating": 3,
+      "id": 141
+    },
+    {
+      "characterId": 4,
+      "skillId": 9,
+      "skillRating": 3,
+      "id": 142
+    },
+    {
+      "characterId": 4,
+      "skillId": 18,
+      "skillRating": 4,
+      "id": 143
+    },
+    {
+      "characterId": 4,
+      "skillId": 14,
+      "skillRating": 4,
+      "id": 144
+    },
+    {
+      "characterId": 4,
+      "skillId": 10,
+      "skillRating": 5,
+      "id": 145
+    },
+    {
+      "characterId": 3,
+      "skillId": 7,
+      "skillRating": 1,
+      "id": 146
+    },
+    {
+      "characterId": 3,
+      "skillId": 9,
+      "skillRating": 1,
+      "id": 147
+    },
+    {
+      "characterId": 3,
+      "skillId": 3,
+      "skillRating": 2,
+      "id": 148
+    },
+    {
+      "characterId": 3,
+      "skillId": 18,
+      "skillRating": 2,
+      "id": 149
+    },
+    {
+      "characterId": 3,
+      "skillId": 8,
+      "skillRating": 3,
+      "id": 150
+    },
+    {
+      "characterId": 3,
+      "skillId": 12,
+      "skillRating": 3,
+      "id": 151
+    },
+    {
+      "characterId": 3,
+      "skillId": 1,
+      "skillRating": 4,
+      "id": 152
+    },
+    {
+      "characterId": 3,
+      "skillId": 10,
+      "skillRating": 4,
+      "id": 153
+    },
+    {
+      "characterId": 13,
+      "skillId": 12,
+      "skillRating": 3,
+      "id": 154
+    },
+    {
+      "characterId": 13,
+      "skillId": 5,
+      "skillRating": 3,
+      "id": 155
+    },
+    {
+      "characterId": 13,
+      "skillId": 18,
+      "skillRating": 3,
+      "id": 156
+    },
+    {
+      "characterId": 13,
+      "skillId": 11,
+      "skillRating": 4,
+      "id": 157
+    },
+    {
+      "characterId": 13,
+      "skillId": 8,
+      "skillRating": 4,
+      "id": 158
+    },
+    {
+      "characterId": 13,
+      "skillId": 17,
+      "skillRating": 5,
+      "id": 159
+    },
+    {
+      "characterId": 14,
+      "skillId": 8,
+      "skillRating": 2,
+      "id": 160
+    },
+    {
+      "characterId": 14,
+      "skillId": 10,
+      "skillRating": 2,
+      "id": 161
+    },
+    {
+      "characterId": 14,
+      "skillId": 11,
+      "skillRating": 2,
+      "id": 162
+    },
+    {
+      "characterId": 14,
+      "skillId": 5,
+      "skillRating": 3,
+      "id": 163
+    },
+    {
+      "characterId": 14,
+      "skillId": 3,
+      "skillRating": 3,
+      "id": 164
+    },
+    {
+      "characterId": 14,
+      "skillId": 1,
+      "skillRating": 4,
+      "id": 165
+    },
+    {
+      "characterId": 15,
+      "skillId": 17,
+      "skillRating": 3,
+      "id": 166
+    },
+    {
+      "characterId": 15,
+      "skillId": 18,
+      "skillRating": 3,
+      "id": 167
+    },
+    {
+      "characterId": 15,
+      "skillId": 7,
+      "skillRating": 3,
+      "id": 168
+    },
+    {
+      "characterId": 15,
+      "skillId": 2,
+      "skillRating": 3,
+      "id": 169
+    },
+    {
+      "characterId": 15,
+      "skillId": 8,
+      "skillRating": 4,
+      "id": 170
+    },
+    {
+      "characterId": 15,
+      "skillId": 9,
+      "skillRating": 4,
+      "id": 171
+    },
+    {
+      "characterId": 15,
+      "skillId": 10,
+      "skillRating": 4,
+      "id": 172
+    },
+    {
+      "characterId": 15,
+      "skillId": 1,
+      "skillRating": 5,
+      "id": 173
+    },
+    {
+      "characterId": 15,
+      "skillId": 12,
+      "skillRating": 5,
+      "id": 174
+    },
+    {
+      "characterId": 15,
+      "skillId": 11,
+      "skillRating": 6,
+      "id": 175
+    },
+    {
+      "characterId": 16,
+      "skillId": 9,
+      "skillRating": 1,
+      "id": 176
+    },
+    {
+      "characterId": 16,
+      "skillId": 7,
+      "skillRating": 1,
+      "id": 177
+    },
+    {
+      "characterId": 16,
+      "skillId": 16,
+      "skillRating": 1,
+      "id": 178
+    },
+    {
+      "characterId": 16,
+      "skillId": 4,
+      "skillRating": 1,
+      "id": 179
+    },
+    {
+      "characterId": 16,
+      "skillId": 18,
+      "skillRating": 2,
+      "id": 180
+    },
+    {
+      "characterId": 16,
+      "skillId": 1,
+      "skillRating": 2,
+      "id": 181
+    },
+    {
+      "characterId": 16,
+      "skillId": 17,
+      "skillRating": 2,
+      "id": 182
+    },
+    {
+      "characterId": 16,
+      "skillId": 12,
+      "skillRating": 3,
+      "id": 183
+    },
+    {
+      "characterId": 16,
+      "skillId": 10,
+      "skillRating": 3,
+      "id": 184
+    },
+    {
+      "characterId": 16,
+      "skillId": 11,
+      "skillRating": 4,
+      "id": 185
+    },
+    {
+      "characterId": 17,
+      "skillId": 18,
+      "skillRating": 2,
+      "id": 186
+    },
+    {
+      "characterId": 17,
+      "skillId": 9,
+      "skillRating": 2,
+      "id": 187
+    },
+    {
+      "characterId": 17,
+      "skillId": 12,
+      "skillRating": 2,
+      "id": 188
+    },
+    {
+      "characterId": 17,
+      "skillId": 1,
+      "skillRating": 3,
+      "id": 189
+    },
+    {
+      "characterId": 17,
+      "skillId": 11,
+      "skillRating": 3,
+      "id": 190
+    },
+    {
+      "characterId": 17,
+      "skillId": 17,
+      "skillRating": 4,
+      "id": 191
+    },
+    {
+      "characterId": 18,
+      "skillId": 3,
+      "skillRating": 3,
+      "id": 192
+    },
+    {
+      "characterId": 18,
+      "skillId": 5,
+      "skillRating": 3,
+      "id": 193
+    },
+    {
+      "characterId": 18,
+      "skillId": 1,
+      "skillRating": 4,
+      "id": 194
+    },
+    {
+      "characterId": 18,
+      "skillId": 2,
+      "skillRating": 4,
+      "id": 195
+    },
+    {
+      "characterId": 22,
+      "skillId": 7,
+      "skillRating": 1,
+      "id": 206
+    },
+    {
+      "characterId": 22,
+      "skillId": 9,
+      "skillRating": 1,
+      "id": 207
+    },
+    {
+      "characterId": 22,
+      "skillId": 10,
+      "skillRating": 1,
+      "id": 208
+    },
+    {
+      "characterId": 22,
+      "skillId": 4,
+      "skillRating": 2,
+      "id": 209
+    },
+    {
+      "characterId": 22,
+      "skillId": 3,
+      "skillRating": 2,
+      "id": 210
+    },
+    {
+      "characterId": 22,
+      "skillId": 14,
+      "skillRating": 3,
+      "id": 211
+    },
+    {
+      "characterId": 23,
+      "skillId": 12,
+      "skillRating": 1,
+      "id": 212
+    },
+    {
+      "characterId": 23,
+      "skillId": 1,
+      "skillRating": 3,
+      "id": 213
+    },
+    {
+      "characterId": 23,
+      "skillId": 17,
+      "skillRating": 1,
+      "id": 214
+    },
+    {
+      "characterId": 23,
+      "skillId": 11,
+      "skillRating": 1,
+      "id": 215
+    },
+    {
+      "characterId": 23,
+      "skillId": 16,
+      "skillRating": 2,
+      "id": 216
+    },
+    {
+      "characterId": 23,
+      "skillId": 8,
+      "skillRating": 2,
+      "id": 217
+    },
+    {
+      "characterId": 24,
+      "skillId": 8,
+      "skillRating": 1,
+      "id": 218
+    },
+    {
+      "characterId": 24,
+      "skillId": 12,
+      "skillRating": 1,
+      "id": 219
+    },
+    {
+      "characterId": 24,
+      "skillId": 11,
+      "skillRating": 2,
+      "id": 220
+    },
+    {
+      "characterId": 25,
+      "skillId": 8,
+      "skillRating": 1,
+      "id": 221
+    },
+    {
+      "characterId": 19,
+      "skillId": 18,
+      "skillRating": 1,
+      "id": 222
+    },
+    {
+      "characterId": 19,
+      "skillId": 14,
+      "skillRating": 1,
+      "id": 223
+    },
+    {
+      "characterId": 19,
+      "skillId": 5,
+      "skillRating": 1,
+      "id": 224
+    },
+    {
+      "characterId": 19,
+      "skillId": 3,
+      "skillRating": 2,
+      "id": 225
+    },
+    {
+      "characterId": 19,
+      "skillId": 7,
+      "skillRating": 2,
+      "id": 226
+    },
+    {
+      "characterId": 19,
+      "skillId": 10,
+      "skillRating": 3,
+      "id": 227
+    },
+    {
+      "characterId": 21,
+      "skillId": 14,
+      "skillRating": 1,
+      "id": 228
+    },
+    {
+      "characterId": 20,
+      "skillId": 7,
+      "skillRating": 1,
+      "id": 229
+    },
+    {
+      "characterId": 20,
+      "skillId": 12,
+      "skillRating": 1,
+      "id": 230
+    },
+    {
+      "characterId": 20,
+      "skillId": 8,
+      "skillRating": 2,
+      "id": 231
+    },
+    {
+      "characterId": 26,
+      "skillId": 8,
+      "skillRating": 3,
+      "id": 232
+    },
+    {
+      "characterId": 26,
+      "skillId": 16,
+      "skillRating": 3,
+      "id": 233
+    },
+    {
+      "characterId": 26,
+      "skillId": 17,
+      "skillRating": 3,
+      "id": 234
+    },
+    {
+      "characterId": 26,
+      "skillId": 1,
+      "skillRating": 4,
+      "id": 235
+    },
+    {
+      "characterId": 26,
+      "skillId": 18,
+      "skillRating": 4,
+      "id": 236
+    },
+    {
+      "characterId": 26,
+      "skillId": 10,
+      "skillRating": 5,
+      "id": 237
+    }
+  ],
+  "characterTypes": [
+    {
+      "id": 1,
+      "name": "Player Character (PC)"
+    },
+    {
+      "id": 2,
+      "name": "Non-Player Character (NPC)"
+    },
+    {
+      "id": 3,
+      "name": "Enemy (Adversary)"
+    }
+  ],
+  "characterSubTypes": [
+    {
+      "id": 1,
+      "characterTypeId": 2,
+      "name": "Nameless NPC (Average)",
+      "url": "https://fate-srd.com/fate-core/creating-and-playing-opposition#nameless-npcs",
+      "competence": "Rank-and-file order-takers, local conscripts, and the like. When in doubt, a nameless NPC is Average.",
+      "purpose": "Mostly there to make the PCs look more awesome.",
+      "maxAspects": 2,
+      "aspectComment": "They never get more than one or two aspects, because they just aren’t important enough.",
+      "maxSkillRating": 1,
+      "skillRatingComment": "One or two Average (+1).",
+      "skillChoiceComment": "For a nameless NPC, all you really need is two or three skills based on their role in the scene. Your average security guard might have Fight and Shoot, while your average clerk might only have Lore.",
+      "maxStunts": 0,
+      "stuntComment": "Nameless NPCs have no stunts.",
+      "stressMax": 0,
+      "bothStressTypes": false,
+      "stressComment": "No stress boxes—a one shift hit is enough to take them out.",
+      "maxConsequence": 0,
+      "consequenceComment": "Nameless NPCs have no consequences."
+    },
+    {
+      "id": 2,
+      "characterTypeId": 2,
+      "name": "Nameless NPC (Fair)",
+      "url": "https://fate-srd.com/fate-core/creating-and-playing-opposition#nameless-npcs",
+      "competence": "Trained professionals, like soldiers and elite guards, or others whose role in the scene speaks to their experience, such as a sharp-tongued courtier or talented thief.",
+      "purpose": "Drain a few of the players’ resources (one or two fate points, stress boxes, possibly a mild consequence).",
+      "maxAspects": 2,
+      "aspectComment": "They never get more than one or two aspects, because they just aren’t important enough.",
+      "maxSkillRating": 2,
+      "skillRatingComment": "One Fair (+2), and one or two Average (+1).",
+      "skillChoiceComment": "For a nameless NPC, all you really need is two or three skills based on their role in the scene. Your average security guard might have Fight and Shoot, while your average clerk might only have Lore.",
+      "maxStunts": 0,
+      "stuntComment": "Nameless NPCs have no stunts.",
+      "stressMax": 1,
+      "bothStressTypes": false,
+      "stressComment": "One stress box (e.g. 1[ ])—a two shift hit is enough to take them out.",
+      "maxConsequence": 0,
+      "consequenceComment": "Nameless NPCs have no consequences."
+    },
+    {
+      "id": 3,
+      "characterTypeId": 2,
+      "name": "Nameless NPC (Good)",
+      "url": "https://fate-srd.com/fate-core/creating-and-playing-opposition#nameless-npcs",
+      "competence": "Tough opposition, especially in numbers.",
+      "purpose": "Drain the players’ resources—as Fair, but more so. Provide a decent stumbling block (in numbers) on the way to a more significant encounter.",
+      "maxAspects": 2,
+      "aspectComment": "They never get more than one or two aspects, because they just aren’t important enough.",
+      "maxSkillRating": 3,
+      "skillRatingComment": "One Good (+3), one Fair (+2), and one or two Average (+1).",
+      "skillChoiceComment": "For a nameless NPC, all you really need is two or three skills based on their role in the scene. Your average security guard might have Fight and Shoot, while your average clerk might only have Lore.",
+      "maxStunts": 0,
+      "stuntComment": "Nameless NPCs have no stunts.",
+      "stressMax": 2,
+      "bothStressTypes": false,
+      "stressComment": "Two stress boxes (e.g. 1[ ], 2[ ])—a three shift hit is enough to take them out.",
+      "maxConsequence": 0,
+      "consequenceComment": "Nameless NPCs have no consequences."
+    },
+    {
+      "id": 4,
+      "characterTypeId": 2,
+      "name": "Supporting NPC",
+      "url": "https://fate-srd.com/fate-core/creating-and-playing-opposition#supporting-npcs",
+      "competence": "Supporting NPCs have proper names and are a little more detailed than nameless NPCs, playing a supporting role in your scenarios (hence the name). They often display some kind of strong distinguishing trait that sets them apart from the crowd, because of their relationship to a PC or NPC, a particular competence or unique ability, or simply the fact that they tend to appear in the game a great deal. ",
+      "purpose": "Supporting NPCs are a great source of interpersonal drama, because they’re usually the people that the PCs have a relationship with, such as friends, sidekicks, family, contacts, and noteworthy opponents. While they may never be central to resolving the main dilemma of a scenario, they’re a significant part of the journey, either because they provide aid, present a problem, or figure into a subplot.",
+      "maxAspects": 3,
+      "aspectComment": "A high concept, trouble, and up to one more aspect.",
+      "maxSkillRating": 6,
+      "skillRatingComment": "A supporting NPC’s top skill can exceed your best PC’s by one or two levels, but only if their role in the game is to provide serious opposition—supporting NPCs who are allied with the PCs should be their rough peers in skill level.",
+      "skillChoiceComment": "Skills for a supporting NPC should follow a column distribution. Because you’re only going to define four or five skills, just treat it as one column. If your NPC has a skill at Great, fill in one skill at each positive step below it—so one Good, one Fair, and one Average skill.",
+      "maxStunts": 1,
+      "stuntComment": "Supporting NPCs can have up to one stunt.",
+      "stressMax": 4,
+      "bothStressTypes": true,
+      "stressComment": "If they have a skill that entitles them to bonus stress boxes, award those as well.",
+      "maxConsequence": 4,
+      "consequenceComment": "They have one mild consequence and, if you want them to be especially tough, one moderate consequence."
+    },
+    {
+      "id": 5,
+      "characterTypeId": 2,
+      "name": "Main NPC",
+      "url": "https://fate-srd.com/fate-core/creating-and-playing-opposition#main-npcs",
+      "competence": "They are the most significant characters in your PCs’ lives, because they represent pivotal forces of opposition or allies of crucial importance. Because they have a full spread of aspects, they also offer the most nuanced options for interaction, and they have the most options to invoke and be compelled.",
+      "purpose": "Your primary “bad guys” in a scenario or arc should always be main NPCs, as should any NPCs who are the most vital pieces of your stories.",
+      "maxAspects": 7,
+      "aspectComment": "Main NPCs have up to five aspects.",
+      "maxSkillRating": 6,
+      "skillRatingComment": "Regarding skill levels, your main NPCs will come in one of two flavors—exact peers of the PCs who grow withthem as the campaign progresses, or superiors to the PCs who remain static while the PCs grow to sufficient strength to oppose them. If it’s the former, just give them the exact same skill distribution the PCs currently have. If it’s the latter, give them enough skills to go at least two higher than whatever the current skill cap is for the game.",
+      "skillChoiceComment": "",
+      "maxStunts": 4,
+      "stuntComment": "A Main NPC can have a full selection of stunts",
+      "stressMax": 4,
+      "bothStressTypes": true,
+      "stressComment": "They follow all the same Stress rules as a PC.",
+      "maxConsequence": 6,
+      "consequenceComment": "They follow all the same Consequence rules as a PC."
+    },
+    {
+      "id": 6,
+      "characterTypeId": 1,
+      "name": "PC",
+      "url": "https://fate-srd.com/fate-core/character-creation",
+      "competence": "Player characters should be exceptional and interesting. They could very easily find success in less exciting situations than those that come their way in play.",
+      "purpose": "Player characters are the heroes and protagonists of the story. They are meant to be controlled by players.",
+      "maxAspects": 5,
+      "aspectComment": "The best aspects are double-edged, say more than one thing, and keep the phrasing simple.",
+      "maxSkillRating": 4,
+      "skillRatingComment": "By default, Great (+4) is the highest rated skill PCs start with. As characters advance, they can improve beyond this cap, but it’s more difficult than improving skills rated below the cap (see Major Milestones).",
+      "skillChoiceComment": "Player Characters begin with: One Great (+4) skill, Two Good (+3) skills, Three Fair (+2) skills, and Four Average (+1) skills",
+      "maxStunts": 3,
+      "stuntComment": "You get three stunts for free, and you can take up to two more stunts at the cost of lowering your refresh by one each.",
+      "stressMax": 4,
+      "bothStressTypes": true,
+      "stressComment": "Every PC has two different stress tracks. The physical stress track deals with physical harm, and the mental stress track mitigates mental harm. The more boxes in a stress track, the more resilient the character is in that regard. By default, a character has two boxes in each stress track.",
+      "maxConsequence": 6,
+      "consequenceComment": "Every PC also has three consequence slots. One is mild, one is moderate, and the last one is severe. Unlike stress, these aren’t classified as either physical or mental—any of them can apply to any type of harm. As mentioned above, consequences are the injuries and traumas you can’t just shake off after the dust settles."
+    },
+    {
+      "id": 7,
+      "characterTypeId": 3,
+      "name": "Threat",
+      "url": "https://fate-srd.com/fate-adversary-toolkit/enemies#threats",
+      "competence": "Threats exist to threaten: that is, they draw the PCs’ attention, hold it, and soak up punishment. They’re not necessarily the hardest hitters, but leaving them to their own devices is problematic.",
+      "purpose": "They get up in the PCs’ faces and make the PCs want to get rid of them. Threats are your tanks; they’re meat shields for the really important or nasty enemies in the fight.",
+      "maxAspects": 3,
+      "aspectComment": "Threats have a high concept and a trouble. If a threat’s particularly important, give her a third aspect. Emphasize her physical size, toughness, immovability, or stubbornness. Give her an Achilles’ heel that the PCs can exploit.",
+      "maxSkillRating": 6,
+      "skillRatingComment": "Set the threat’s apex skill to one step above the PCs’ highest-rated skill or, if you want a particularly tough threat, two steps above. Then, give your threat two more skills rated one step below the apex skill. If you want to define the threat further, give her three more skills rated one step below that.",
+      "skillChoiceComment": "A physical threat prioritizes Physique, then Fight or Shoot. Skills like Athletics and Will are useful for getting out of the way or resisting mental or social attacks. A social threat prioritizes Will, then some combination of Empathy, Rapport, Provoke, and Deceive. Lore is useful for creating advantages.",
+      "maxStunts": 2,
+      "stuntComment": "Threats need at least one stunt that they can use to make the PCs want to deal with them. A really tough threat could also have a stunt that makes her tougher, giving her an Armor rating or extra stress boxes.",
+      "stressMax": 4,
+      "bothStressTypes": true,
+      "stressComment": "Physical threats have large physical stress tracks because of their high Physique, while social threats have similarly large mental stress tracks because of their high Will. If you’re using Fate rules that don’t grant additional stress boxes for high skill ratings, consider giving the threat a stunt that does so.",
+      "maxConsequence": 4,
+      "consequenceComment": "All threats have at least a mild consequence slot; particularly tough ones also have a moderate slot."
+    },
+    {
+      "id": 8,
+      "characterTypeId": 3,
+      "name": "Hitter",
+      "url": "https://fate-srd.com/fate-adversary-toolkit/enemies#hitters",
+      "competence": "Hitters are often easily overlooked, but they’re able to strike with devastating effect. They don’t necessarily hit hard every time, but under optimal circumstances, they can really make the PCs hurt.",
+      "purpose": "That said, hitters can dish it out but typically can’t take it. Often, the PCs won’t know that a hitter is a threat until it’s done some damage, but once the PCs know about it, they should be able to take it down fairly quickly. Hitters are glass cannons.",
+      "maxAspects": 3,
+      "aspectComment": "Hitters have a high concept and a trouble. If a hitter is particularly important, give her a third aspect. Emphasize how dangerous she is or why she’s difficult to notice. Give her a weakness that points to some oversight, overconfidence, or other exploitable flaw.",
+      "maxSkillRating": 6,
+      "skillRatingComment": "Set the hitter’s apex skill to one step above the PCs’ highest-rated skill or, if you want a particularly dangerous hitter, two steps above. Then, give your hitter two more skills rated one step below the apex skill. If you want to define the hitter further, give her three more skills rated one step below that.",
+      "skillChoiceComment": "Prioritize skills that deal stress to the PCs. For physical hitters, Fight or Shoot are the most important. Other skills should focus on mobility or keeping attention elsewhere; Sneak, Deceive, and Athletics are all good choices. For social hitters, Provoke, Deceive, and Rapport could all be used to good effect. Other important skills are Empathy, Notice, and Contacts. Don’t give hitters skills like Physique or Will. If an enemy is both tough and hits really hard, it’s a boss, not a hitter.",
+      "maxStunts": 3,
+      "stuntComment": "A hitter always has, at the very least, a stunt that confers Weapon:2 on her primary attack. If you want to make her particularly dangerous, give her a stunt that makes her harder to spot too. Another excellent type of stunt to give a hitter is a way to hit really hard with a non-standard skill under the right circumstances; this way, the hitter can do her job, but becomes less effective when confronted directly.",
+      "stressMax": 4,
+      "bothStressTypes": true,
+      "stressComment": "Most hitters will have the bare minimum stress track.",
+      "maxConsequence": 2,
+      "consequenceComment": "If you want a hitter to be particularly important or nasty, give her a mild consequence slot. Otherwise, don’t give her any consequence slots. Hitters show up, hit hard, and die off quickly."
+    },
+    {
+      "id": 9,
+      "characterTypeId": 3,
+      "name": "Boss",
+      "url": "https://fate-srd.com/fate-adversary-toolkit/enemies#bosses",
+      "competence": "Where threats and hitters are specialized enemies, and fillers are generic bad guys, bosses are those special enemies who the PCs just can’t wait to take down. ",
+      "purpose": "Bosses are the focal point of a set-piece battle, the big personalities that drive the adventure, the antagonists that hound the PCs at every turn.",
+      "maxAspects": 7,
+      "aspectComment": "Bosses have a full spread of five aspects. Give your boss a high concept that drives home what she’s all about. Is she the Corrupt Police Captain? The Necromancer General? Your boss’s trouble should be a closely guarded secret that the PCs can exploit if they find out about it. For the other three aspects, come up with some unique shticks that your boss relies on, things that’ll make her memorable. Maybe the corrupt police captain is an Expert Martial Artist, or maybe the necromancer general carries the All-Seeing Staff.",
+      "maxSkillRating": 6,
+      "skillRatingComment": "A good boss has highly rated skills, and lots of them. Bosses are far more versatile than either hitters or threats and, unlike those two types of enemies, it’s entirely within your purview to make a boss who’s both good at dealing damage andgood at taking it. First, look at the highest-rated PC skill. Either give your boss one skill rated at two steps higher, or two skills rated at one step higher. If your boss has one apex skill, give her two skills rated at one step lower, then three rated at one step below that, and so on until you’ve filled out every step of the ladder down to Fair (+2). If the boss has two apex skills, give her three rated at one step below, then four, and so on down until Fair (+2). All of her other skills are Average (+1).",
+      "skillChoiceComment": "Your boss should prioritize skills that support her personality. The corrupt police captain probably has high social skills, some good combat skills, and skills like Drive, Lore, and Crafts down toward the bottom of her pyramid. The necromancer general probably prioritizes Lore above all else, then goes on to prioritize things like Resources, Provoke, Contacts, and Crafts, then leaves more physically oriented skills for the bottom of her pyramid. Of course, you can always subvert these expectations.",
+      "maxStunts": 3,
+      "stuntComment": "A boss always has at least one stunt, and as many as three. Create stunts that make the boss memorable, stunts that bring in more bad guys to fight, stunts that make the boss hard to deal with, and stunts that represent her social status or allies.",
+      "stressMax": 4,
+      "bothStressTypes": true,
+      "stressComment": "Bosses have stress tracks of varying lengths based on their skills.",
+      "maxConsequence": 6,
+      "consequenceComment": "All bosses have at least a mild and a moderate consequence slot, and a particularly nasty boss has a severe consequence slot too."
+    },
+    {
+      "id": 10,
+      "characterTypeId": 3,
+      "name": "Filler (Average)",
+      "url": "https://fate-srd.com/fate-adversary-toolkit/enemies#fillers",
+      "competence": "When you want to fill your scene with enemies, but you don’t want the complexity of adding more hitters, threats, or bosses, then fillers are what you need.",
+      "purpose": "Fillers are easy to run and keep track of, and they let the PCs feel like badasses as they take down hordes of bad guys.",
+      "maxAspects": 1,
+      "aspectComment": "Give your filler enemy a name that encapsulates its function in the scene, like Mob Enforcer, Crazed Velociraptor, or Flamethrower Turret. A filler’s name is an aspect, and its only aspect.",
+      "maxSkillRating": 1,
+      "skillRatingComment": "An Average filler has one Average (+1) skill.",
+      "skillChoiceComment": "You can use skills from Fate Core or whatever Fate game you’re playing, or you can make up brand-new skills specific to your fillers. Those mob enforcers might have Fair (+2) Tommy Guns, while the crazed velociraptors might have Good (+3) Claws & Fangs and Average (+1) Dodge. If a filler enemy ever does something that isn’t covered by its skills, it rolls at Mediocre (+0) or it automatically fails (if that would be simpler).",
+      "maxStunts": 0,
+      "stuntComment": "Fillers don’t get stunts. They exist to be simple, and stunts make them more complex than they need to be. You can, at your option, make them dangerous fillers, giving them Weapon:1.",
+      "stressMax": 1,
+      "bothStressTypes": true,
+      "stressComment": "A filler has one 1-stress box per quality step—so a Good filler has three 1-stress boxes, for example. Unlike characters and other types of enemies, a filler can mark off as many of its stress boxes as it likes to absorb a single hit. So, if a filler takes a 2-stress hit, it can mark off two of its stress boxes.",
+      "maxConsequence": 0,
+      "consequenceComment": "Fillers never have consequence slots."
+    },
+    {
+      "id": 11,
+      "characterTypeId": 3,
+      "name": "Filler (Fair)",
+      "url": "https://fate-srd.com/fate-adversary-toolkit/enemies#fillers",
+      "competence": "When you want to fill your scene with enemies, but you don’t want the complexity of adding more hitters, threats, or bosses, then fillers are what you need.",
+      "purpose": "Fillers are easy to run and keep track of, and they let the PCs feel like badasses as they take down hordes of bad guys.",
+      "maxAspects": 1,
+      "aspectComment": "Give your filler enemy a name that encapsulates its function in the scene, like Mob Enforcer, Crazed Velociraptor, or Flamethrower Turret. A filler’s name is an aspect, and its only aspect.",
+      "maxSkillRating": 2,
+      "skillRatingComment": "A Fair filler has one Fair (+2) skill.",
+      "skillChoiceComment": "You can use skills from Fate Core or whatever Fate game you’re playing, or you can make up brand-new skills specific to your fillers. Those mob enforcers might have Fair (+2) Tommy Guns, while the crazed velociraptors might have Good (+3) Claws & Fangs and Average (+1) Dodge. If a filler enemy ever does something that isn’t covered by its skills, it rolls at Mediocre (+0) or it automatically fails (if that would be simpler).",
+      "maxStunts": 0,
+      "stuntComment": "Fillers don’t get stunts. They exist to be simple, and stunts make them more complex than they need to be. You can, at your option, make them dangerous fillers, giving them Weapon:1.",
+      "stressMax": 1,
+      "bothStressTypes": true,
+      "stressComment": "A filler has one 1-stress box per quality step—so a Good filler has three 1-stress boxes, for example. Unlike characters and other types of enemies, a filler can mark off as many of its stress boxes as it likes to absorb a single hit. So, if a filler takes a 2-stress hit, it can mark off two of its stress boxes.",
+      "maxConsequence": 0,
+      "consequenceComment": "Fillers never have consequence slots."
+    },
+    {
+      "id": 12,
+      "characterTypeId": 3,
+      "name": "Filler (Good)",
+      "url": "https://fate-srd.com/fate-adversary-toolkit/enemies#fillers",
+      "competence": "When you want to fill your scene with enemies, but you don’t want the complexity of adding more hitters, threats, or bosses, then fillers are what you need.",
+      "purpose": "Fillers are easy to run and keep track of, and they let the PCs feel like badasses as they take down hordes of bad guys.",
+      "maxAspects": 1,
+      "aspectComment": "Give your filler enemy a name that encapsulates its function in the scene, like Mob Enforcer, Crazed Velociraptor, or Flamethrower Turret. A filler’s name is an aspect, and its only aspect.",
+      "maxSkillRating": 3,
+      "skillRatingComment": "A Good filler has one Good (+3) skill and one Average (+1) skill.",
+      "skillChoiceComment": "You can use skills from Fate Core or whatever Fate game you’re playing, or you can make up brand-new skills specific to your fillers. Those mob enforcers might have Fair (+2) Tommy Guns, while the crazed velociraptors might have Good (+3) Claws & Fangs and Average (+1) Dodge. If a filler enemy ever does something that isn’t covered by its skills, it rolls at Mediocre (+0) or it automatically fails (if that would be simpler).",
+      "maxStunts": 0,
+      "stuntComment": "Fillers don’t get stunts. They exist to be simple, and stunts make them more complex than they need to be. You can, at your option, make them dangerous fillers, giving them Weapon:1.",
+      "stressMax": 1,
+      "bothStressTypes": true,
+      "stressComment": "A filler has one 1-stress box per quality step—so a Good filler has three 1-stress boxes, for example. Unlike characters and other types of enemies, a filler can mark off as many of its stress boxes as it likes to absorb a single hit. So, if a filler takes a 2-stress hit, it can mark off two of its stress boxes.",
+      "maxConsequence": 0,
+      "consequenceComment": "Fillers never have consequence slots."
     }
   ]
 }
